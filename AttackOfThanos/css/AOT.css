@@ -1,0 +1,147 @@
+body {
+  text-align: center;
+}
+
+#bg {
+  background: url("../img/bg2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 98vh;
+  z-index: 50;
+}
+
+#initScreen {
+  background: url("../img/startBg.png");
+  background-size:400px 726px;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 300;
+}
+
+#initScreen p {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  font-family: Microsoft JhengHei;
+}
+
+#startBtn {
+  position: relative;
+  height: 100px;
+  top: 25vh;
+  cursor: url("../img/click.cur"), default;
+}
+
+.volume {
+  position: absolute;
+  left: 80px;
+  bottom: 10px;
+  height: 30px;
+}
+
+#groot {
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+  height: 60px;
+}
+
+#screen {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  background: url("../img/gamebg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 30px;
+  width: 400px;
+  height: 80vh;
+  overflow: hidden;
+  cursor: url("../img/mouse.cur"), default;
+}
+
+.species {
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100px;
+  height: 100px;
+  z-index: 100;
+}
+
+#player {
+  background: url("../img/1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#enemy {
+  position: absolute;
+  left: 25px;
+  top: -100px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#enemy img {
+  width: 100%;
+}
+
+#score {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 200;
+  width: 20%
+}
+
+#gameOver {
+  background: black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 50px;
+  line-height: 700px;
+  color: white;
+  cursor: url("../img/click.cur"), auto;
+}
+
+#re {
+  background: black;
+  opacity: 0.7;
+  width: 100%;
+  height: 10%;
+  font-size: 50px;
+  color: white;
+}
+
+
+#loading {
+  position: fixed;
+  z-index: 400;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #595758;
+  background-color: #ffffff;
+}
